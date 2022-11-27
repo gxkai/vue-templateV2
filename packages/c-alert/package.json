@@ -1,0 +1,36 @@
+{
+  "name": "@chakra-ui/c-alert",
+  "version": "1.0.0-alpha.10",
+  "main": "dist/chakra-ui-c-alert.cjs.js",
+  "module": "dist/chakra-ui-c-alert.esm.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/chakra-ui-c-alert.cjs.js",
+      "default": "./dist/chakra-ui-c-alert.esm.js"
+    }
+  },
+  "description": "Chakra UI Vue | CAlert component",
+  "repository": "https://github.com/chakra-ui/chakra-ui-vue-next/tree/master/packages/c-alert",
+  "author": "Jonathan Bakebwa codebender828@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@chakra-ui/c-icon": "1.0.0-alpha.10",
+    "@chakra-ui/vue-system": "0.1.0-alpha.10",
+    "@chakra-ui/vue-utils": "0.1.0-alpha.10"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vue": "^3.2.37"
+  }
+}

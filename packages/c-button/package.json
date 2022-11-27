@@ -1,0 +1,38 @@
+{
+  "name": "@chakra-ui/c-button",
+  "version": "1.0.0-alpha.10",
+  "main": "dist/chakra-ui-c-button.cjs.js",
+  "module": "dist/chakra-ui-c-button.esm.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/chakra-ui-c-button.cjs.js",
+      "default": "./dist/chakra-ui-c-button.esm.js"
+    }
+  },
+  "description": "Chakra UI Vue | CButton component",
+  "repository": "https://github.com/chakra-ui/chakra-ui-vue-next/tree/master/packages/c-button",
+  "author": "Jonathan Bakebwa codebender828@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@chakra-ui/c-icon": "1.0.0-alpha.10",
+    "@chakra-ui/c-spinner": "1.0.0-alpha.10",
+    "@chakra-ui/utils": "^2.0.3",
+    "@chakra-ui/vue-system": "0.1.0-alpha.10",
+    "@chakra-ui/vue-utils": "0.1.0-alpha.10"
+  },
+  "peerDependencies": {
+    "vue": "^3.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vue": "^3.2.37"
+  }
+}
